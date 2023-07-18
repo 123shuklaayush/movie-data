@@ -1,12 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { useNavigate } from "react-router-dom"
 import "./style.scss"
 import HeroBanner from './heroBanner/HeroBanner'
 const Home = () => {
-  return (
-    <div className='homePage'>
-      <HeroBanner/>
-    </div>
+  return(
+    <HeroBanner/>
   )
+  
 }
 
 export default Home
